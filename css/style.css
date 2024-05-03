@@ -210,6 +210,7 @@ span{
     border-bottom: 0.2rem solid var(--sec-bg-color);
     border-left: 0.2rem solid var(--main-color);
     border-right: 0.2rem solid var(--main-color);
+ animation: aboutspinner 8s linear infinite;
 
 }
 .about-content{
@@ -493,4 +494,9 @@ font-size: 15px;
 }
 #btnprojectshow{
     display: flex;
+}
+@keyframes aboutspinner{
+    100%{
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
 }
