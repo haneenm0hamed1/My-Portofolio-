@@ -64,7 +64,7 @@ section{
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('/images/home.jpg') no-repeat;
+    background: url('/images/home.jpg') no-repeat !important;
     background-size: cover;
     background-position: right;
 }
@@ -463,7 +463,7 @@ font-size: 15px;
 }
 @media (max-width:769px) {
     .home{
-        background: url('/images/home2.jpg') no-repeat;
+        background: url('/images/home2.jpg') no-repeat !important;
         background-size: cover;
         background-position: right;
     }
